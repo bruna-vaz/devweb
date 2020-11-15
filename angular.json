@@ -25,12 +25,15 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "./src/assets/layout/styles/layout.css",
               "./src/assets/layout/styles/framework.css",
               "./src/assets/layout/styles/font-awesome.min.css"
             ],
             "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
               "./src/assets/layout/scripts/jquery.backtotop.js",
               "./src/assets/layout/scripts/jquery.min.js",
               "./src/assets/layout/scripts/jquery.mobilemenu.js"

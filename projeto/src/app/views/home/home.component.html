@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
-  <div class="bgded overlay light" style="background-image:url('src/assets/images/demo/backgrounds/01.png');"> 
+  <div class="bgded overlay light" style="background-image:url('../../../assets/images/demo/backgrounds/01.png');"> 
     <div id="pageintro" class="hoc clear"> 
       
         <article>
@@ -15,38 +15,18 @@
         
       </div>
     </div>
-  
-      <div id="pageline" class=""> 
-      </div>
-      
-      <br><br>
-  
-      <div id="pagetexts" class="" > 
-        <p> Man must rise above the Earth-to the top of the atmosphere and beyond-for only thus will he fully understand the world in which he lives." <br> - Socrates, Philosopher</p>
-      </div>
-    <!-- End Top Background Image Wrapper -->
  
   
   
-    <div class="wrapper row3">
+    <div *ngFor="let post of posts" class="wrapper row4">
       <main class="hoc container clear"> 
         <!-- main body -->
         
-        <div class="group excerpt">
-          <article class="one_third first"><a class="imgover btmspace-30" href="#"><img src="src/app/assets/images/demo/320x240.png" alt=""></a>
-            <h6 class="heading">Sapien lorem interdum</h6>
-            <p>Purus in ornare feugiat ex vivamus bibendum augue nisl sit amet dictum quam aliquet id phasellus interdum leo sit amet&hellip;</p>
-            <footer><a href="#">Service Details &raquo;</a></footer>
-          </article>
-          <article class="one_third"><a class="imgover btmspace-30" href="#"><img src="src/app/assets/images/demo/320x240.png" alt=""></a>
-            <h6 class="heading">Convallis vulputate mi</h6>
-            <p>Sem vestibulum lacus sit amet eleifend velit tellus quis ligula nam egestas eros sit amet vulputate porttitor proin leo&hellip;</p>
-            <footer><a href="#">Service Details &raquo;</a></footer>
-          </article>
-          <article class="one_third"><a class="imgover btmspace-30" href="#"><img src="src/app/assets/images/demo/320x240.png" alt=""></a>
-            <h6 class="heading">Turpis suscipit vitae magna</h6>
-            <p>At pretium tempus erat ut vel hendrerit velit aliquam feugiat eget velit eu ultrices vivamus mauris leo aenean sagittis&hellip;</p>
-            <footer><a href="#">Service Details &raquo;</a></footer>
+        <div>
+          <article class=""><a class="imgover btmspace-30" href="#"><img src= {{post.image}} alt=""></a>
+            <h6 class="heading">{{ post.name }}</h6>
+            <p>{{ post.text }}</p>
+            <footer><a href="#">{{post.add}}</a></footer>
           </article>
         </div>
         

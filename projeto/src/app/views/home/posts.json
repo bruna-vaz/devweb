@@ -1,0 +1,59 @@
+[
+
+    {
+  
+      "id": 1,
+  
+      "title": "Descoberta de água na Lua",
+  
+      "text": "Dias atrás, a Nasa, agência espacial dos EUA, deu dicas de que teria uma empolgante nova descoberta sobre a Lua. Na segunda-feira (26), a agência revelou evidências conclusivas da existência de água em nosso único satélite natural.",
+  
+      "add": "Os resultados foram publicados como dois artigos na revista científica Nature Astronomy.",
+
+      "image": "../../../assets/images/demo/space.jpg"
+  
+    },
+  
+    {
+  
+      "id": 2,
+  
+      "title": "Nasa e SpaceX enviam astronautas a ISS",
+  
+      "text": "A viagem, em um foguete Falcon 9, está prevista para o dia 14 de novembro, partindo do Complexo de Lançamento 39A no Centro Espacial Kennedy, da Nasa, na Flórida. A chegada à estação espacial deverá ocorrer no dia seguinte ao lançamento.",
+  
+      "add": "Este é o primeiro voo de rotação da tripulação da espaçonave SpaceX Crew Dragon",
+
+      "image": "../../../assets/images/demo/space.jpg"
+  
+    },
+  
+    {
+  
+      "id": 3,
+  
+      "title": "20 anos da Estação Espacial Internacional",
+  
+      "text": "A EEI (Estação Espacial Internacional) é a maior estrutura espacial já construída pela humanidade: tem 109 metros de largura (quase um campo de futebol) e pesa cerca de 453 toneladas.",
+  
+      "add": "É também o mais alto laboratório já criado pelo homem, orbitando a Terra a quase 400 km de distância da superfície.",
+
+      "image": "../../../assets/images/demo/space.jpg"
+  
+    },
+  
+    {
+  
+      "id": 4,
+  
+      "title": "Lua Azul, o evento cósmico",
+  
+      "text": "Ela não é realmente azul. É uma lua cheia, como qualquer outra, da cor que a maioria das luas cheias são vistas: cinza claro, branco leitoso ou prateado. O que torna estranho esse fenômeno, que o folclore batizou de Lua Azul, é que ela é a segunda lua cheia em um único mês, quando o normal é termos apenas uma.",
+  
+      "add": "Trata-se de fenômeno incomum que ocorre a cada 2,5 anos, aproximadamente, devido à duração dos ciclos lunares",
+
+      "image": "../../../assets/images/demo/space.jpg"
+  
+    }
+  
+  ]
