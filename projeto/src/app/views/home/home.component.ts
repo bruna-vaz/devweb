@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import postData from './posts.json'
 import { PostService } from './../../services/posts.service';
-import { Post } from './home.model';
+import { Post } from './home.module';
 
 
 @Component({
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   constructor(private postService: PostService) { }
 
   ngOnInit() {
-    this.getPosts;
+    this.postService.getPosts;
   }
 
 }

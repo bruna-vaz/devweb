@@ -33,7 +33,8 @@
             "scripts": [
               "./src/assets/layout/scripts/jquery.backtotop.js",
               "./src/assets/layout/scripts/jquery.min.js",
-              "./src/assets/layout/scripts/jquery.mobilemenu.js"
+              "./src/assets/layout/scripts/jquery.mobilemenu.js",
+              "./node_modules/jquery/dist/jquery.js"
             ]
           },
           "configurations": {
